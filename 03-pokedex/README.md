@@ -13,9 +13,13 @@ yarn install
 ```
 npm i -g @nestjs/cli
 ```
-3. Levantar la base de datos
+4. Levantar la base de datos
 ```
 docker-compose up -d
+```
+5. Reconstruir la base de datos con la semilla
+```
+localhost:3000/api/v2/seed
 ```
 
 ## Stack Usado
